@@ -1,0 +1,60 @@
+/* Set margin to 0 for the body element */
+body {
+    margin: 0;
+
+    /* Set background image with city.jpg in the images folder */
+    background-image: url(background-city.jpg);
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Do not repeat the background image */
+    background-repeat: no-repeat;
+
+    /* Cover the entire viewport with the background image */
+    background-size: cover;
+
+    /* Fix the background position while scrolling */
+    background-attachment: fixed;
+}
+
+/* Styling for the clock container */
+#clock-container {
+    /* Use flexbox to center items horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Set height to 100% of the viewport height */
+    height: 100vh;
+
+    /* Add a 2px solid border around the clock container */
+    border: 2px solid;
+}
+
+/* Styling for the digital clock */
+#clock {
+    /* Use monospace font for the clock display */
+    font-family: monospace;
+
+    /* Set font size to 6.5rem (rendered pixels) */
+    font-size: 6.5rem;
+
+    /* Use bold font weight for better visibility */
+    font-weight: bold;
+
+    /* Center text within the clock container */
+    text-align: center;
+
+    /* Set text color to white */
+    color: white;
+
+    /* Apply a blur effect to the background of the clock using backdrop-filter */
+    backdrop-filter: blur(5px);
+
+    /* Set the width of the clock to 100% of its container */
+    width: 100%;
+
+    /* Set a semi-transparent white background color for better readability */
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
